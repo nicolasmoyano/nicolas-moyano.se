@@ -8,6 +8,8 @@ const GodEl = () => (
 
   <Layout>
     <SEO title="Godel" />
+    <div style={{ marginTop: '160px' }}><label style={{ fontSize: '0.8rem', textTransform: 'uppercase', color: '#505050', }}>Case</label><h2>GodEL</h2></div>
+    <div style={{ marginTop: '160px' }}<p>Building one of Sweden’s best-loved apps</p></div>
     <img style={{ marginTop: '70px' }}src={ godelCover } alt="godel cover"></img>
     <div style={{display: 'flex'}}>
     <h1>Feel the power of klimatpositivitet.</h1>
