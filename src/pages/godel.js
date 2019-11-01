@@ -8,26 +8,19 @@ const GodEl = () => (
 
   <Layout>
     <SEO title="Godel" />
-    <div style={{ marginTop: '160px' }}><label style={{ fontSize: '0.8rem', textTransform: 'uppercase', color: '#505050', }}>Case</label><h2>GodEL</h2></div>
-    <div style={{ marginTop: '160px' }}<p>Building one of Sweden’s best-loved apps</p></div>
-    <img style={{ marginTop: '70px' }}src={ godelCover } alt="godel cover"></img>
-    <div style={{display: 'flex'}}>
+    <div style={{ marginTop: '160px'}}><label style={{ fontSize: '0.8rem', textTransform: 'uppercase', color: '#505050', }}>Case</label>
+    <h2>GodEL</h2>
+    </div>
+    
+    <div style={{}}><p>There is one thing that all electricity companies must do: sell electricity. So we do as well. But our profits goes to organizations that tries to save the world.</p>
+    </div>
+    
+    <img style={{ marginTop: '40px' }}src={ godelCover } alt="godel cover"></img>
+    
+    <div style={{flex: '1'}}>
     <h1>Feel the power of klimatpositivitet.</h1>
     </div>
-    <div>
-        <div style={{}}><h5>What We Did</h5>
-        <p>Strategy, Product Design, Prototyping, A/B Testing</p>
-        <p>Welcome to page 2</p>
-        </div>
-        <div>
-        <h5>My Responsibilities</h5>
-        <p>
-    Design strategy
-    User experience
-    Task flow & wireframing 
-    </p>
-    </div>
-</div>
+
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
