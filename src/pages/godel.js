@@ -8,17 +8,13 @@ const GodEl = () => (
 
   <Layout>
     <SEO title="Godel" />
-    <div style={{ marginTop: '160px'}}><label style={{ fontSize: '0.8rem', textTransform: 'uppercase', color: '#505050', }}>Case</label>
-    <h2>GodEL</h2>
-    </div>
     
-    <div style={{}}><p>There is one thing that all electricity companies must do: sell electricity. So we do as well. But our profits goes to organizations that tries to save the world.</p>
-    </div>
+    <img style={{ marginTop: '70px' }}src={ godelCover } alt="godel cover"></img>
     
-    <img style={{ marginTop: '40px' }}src={ godelCover } alt="godel cover"></img>
-    
-    <div style={{flex: '1'}}>
+    <div style={{ maxWidth: 1200}}>
     <h1>Feel the power of klimatpositivitet.</h1>
+    </div>    
+    <div style={{maxWidth: '720px'}}><p>Godels vision is to create a better world by driving the change to a cool electricity market for customers, the environment and the outside world. We have already done a lot to change the electricity industry, now we stick out and can be the first electricity company in the world to offer climate-positive electricity. We believe that it inspires both colleagues in the industry and other companies to start measuring, reducing and binding their greenhouse gas emissions - we want to create a positive change by inspiring sustainable business.</p>
     </div>
 
     <Link to="/">Go back to the homepage</Link>
