@@ -4,6 +4,7 @@ import IcaBG from '../images/IcaBG.png'
 import { Link } from "gatsby"
 import '../components/global.scss'
 import readArrow from '../images/ReadArrow.svg'
+import '../components/project.scss'
 
 const SelectedProject = () =>(
     <div className="Project" style={{ maxWidth: 1200, marginTop: '160px'}}>
@@ -13,9 +14,9 @@ const SelectedProject = () =>(
                 <h2>Godel</h2>
                 <p>There is one thing that all electricity companies must do: sell electricity. So we do as well. But our profits goes to organizations that tries to save the world.</p>
                 <span>
-                <Link to="/godel/" style={{ verticalAlign: 'middle', color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}}>
+                <Link to="/godel/" className="readMore" style={{ color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}}>
                 Read more
-                <img style={{ marginLeft: '16px', verticalAlign: 'middle' }}src={readArrow} alt="read more"></img>
+                <img className="readmoreArrow"  style={{ width: '16px', marginLeft: '8px'}}src={readArrow} alt="read more"></img>
                 </Link>
                 </span>
             </div>
@@ -26,9 +27,9 @@ const SelectedProject = () =>(
                 <h2>Ica handla</h2>
                 <p>The supermarket industry is a saturated market, where customer loyalty is hard to acquire, and even harder to maintain. Building one of Sweden’s best-loved apps </p>
                 <span>
-                <Link to="/godel/" style={{ verticalAlign: 'middle', color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}}>
+                <Link to="/godel/" className="readMore" style={{ color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}}>
                 Read more
-                <img style={{ marginLeft: '16px', verticalAlign: 'middle' }}src={readArrow} alt="read more"></img>
+                <img className="readmoreArrow" style={{ width: '16px', marginLeft: '8px' }}src={readArrow} alt="read more"></img>
                 </Link>
                 </span>
             </div>
