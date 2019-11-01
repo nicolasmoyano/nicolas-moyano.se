@@ -5,39 +5,39 @@ import SEO from "../components/seo"
 import icahandlaCover from '../images/IcaHandla-Cover.png'
 import godel1 from '../images/GodEl.png'
 import godelWidgets from '../images/GodEl-Widgets.png'
-import godelSitemap from '../images/GodEl-Sitemap.png'
+import icahandlaCoupons from '../images/Icahandla-Coupon.png'
 import godelWidgetsDesign from '../images/GodEl-Widget-Design.png'
 
 
 const GodEl = () => (
 
   <Layout>
-    <SEO title="Godel" />
+    <SEO title="Ica Handla" />
     
     <img style={{ marginTop: '70px' }}src={ icahandlaCover } alt="ICA handla cover"></img>
     
     <div style={{ maxWidth: 1200, paddingTop: '40px'}}>
-    <h1>Ica handla - Swedens best and loved app</h1>
+    <h1>Ica handla - Swedens grocery app</h1>
     </div>    
-    <div style={{maxWidth: '720px'}}><p>Godels vision is to create a better world by driving the change to a cool electricity market for customers, the environment and the outside world. We have already done a lot to change the electricity industry, now we stick out and can be the first electricity company in the world to offer climate-positive electricity. We believe that it inspires both colleagues in the industry and other companies to start measuring, reducing and binding their greenhouse gas emissions - we want to create a positive change by inspiring sustainable business.</p>
-    <a style={{ color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}} href="http://www.godel.se" target="blank_" >Visit godel.se</a>
+    <div style={{maxWidth: '720px'}}><p>The supermarket industry is a saturated market, where customer loyalty is hard to acquire, and even harder to maintain. This makes it crucial for ICA to engage with and offer value to their customers in every channel. We were approached with an interesting brief - to create an app that would simplify the everyday tasks of shopping and cooking.</p>
+    <a style={{ color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}} href="https://apps.apple.com/se/app/ica/id458324110" target="blank_">Download app</a>
     </div>
 
     <div style={{ maxWidth: '720px' }}>
         <h5 style={{ paddingTop: '24px'}}>The project</h5>
-        <p>Godel noticed a big change within their organization and in their target audience. This became the start of an entire rebrand of godels visual identity. Having a younger target audience in mind and simplifying their signup process.</p>
+        <p>Simplify the everyday shopping experience. ICA is acting in a occupied category, where it’s crucial to increase loyalty in every channel there is. For the mobile application they wanted to create a great customer experience to simplify the everyday shopping experience.</p>
     </div>
 
     <div style={{ maxWidth: '720px' }}>
         <h5>Our solution</h5>
-        <p>We choose to present a vision for the entire GodEl.se. That includes technical solutions to go hand in hand with the brand change begun at GodEl. We see our vision as an end to the project of rebuilding godel.se but not as a finished product. After launch the collaboration continues with new improvements and iterations based on the knowledge we can draw from users.</p> 
+        <p>One of the great innovations of the app, is the new system of digital coupons. This makes it possible to load offers directly to the ICA Card in realtime via the QR-reader in the app. Unlike other digital coupons on the market, this means that customers do not have to show their phone at checkout, it’s enough to draw the ICA card. Another feature that we are quite proud of is that the shopping list in the app is in sync with how the groceries show up in the store</p> 
     </div>
 
     <div style={{ paddingTop: '40px'}}>
-        <h5 style={{ textAlign: 'center' }}>Userflow & sitemap</h5>
+        <h5 style={{ textAlign: 'center' }}>Digital coupons</h5>
     </div>
 
-    <img src={godelSitemap} alt="GodEl Sitemap" />
+    <img src={icahandlaCoupons} alt="Ica Handla coupons" />
 
     <div style={{ paddingTop: '40px'}}>
     

@@ -27,7 +27,7 @@ const SelectedProject = () =>(
                 <h2>Ica handla</h2>
                 <p>The supermarket industry is a saturated market, where customer loyalty is hard to acquire, and even harder to maintain. Building one of Sweden’s best-loved apps </p>
                 <span>
-                <Link to="/godel/" className="readMore" style={{ color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}}>
+                <Link to="/icahandla/" className="readMore" style={{ color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}}>
                 Read more
                 <img className="readmoreArrow" style={{ width: '16px', marginLeft: '8px' }}src={readArrow} alt="read more"></img>
                 </Link>
