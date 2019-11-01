@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import godelCover from '../images/Godel-Cover.jpg'
+import icahandlaCover from '../images/IcaHandla-Cover.png'
 import godel1 from '../images/GodEl.png'
 import godelWidgets from '../images/GodEl-Widgets.png'
 import godelSitemap from '../images/GodEl-Sitemap.png'
@@ -14,10 +14,10 @@ const GodEl = () => (
   <Layout>
     <SEO title="Godel" />
     
-    <img style={{ marginTop: '70px' }}src={ godelCover } alt="godel cover"></img>
+    <img style={{ marginTop: '70px' }}src={ icahandlaCover } alt="ICA handla cover"></img>
     
     <div style={{ maxWidth: 1200, paddingTop: '40px'}}>
-    <h1>Feel the power of klimatpositivitet.</h1>
+    <h1>Ica handla - Swedens best and loved app</h1>
     </div>    
     <div style={{maxWidth: '720px'}}><p>Godels vision is to create a better world by driving the change to a cool electricity market for customers, the environment and the outside world. We have already done a lot to change the electricity industry, now we stick out and can be the first electricity company in the world to offer climate-positive electricity. We believe that it inspires both colleagues in the industry and other companies to start measuring, reducing and binding their greenhouse gas emissions - we want to create a positive change by inspiring sustainable business.</p>
     <a style={{ color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}} href="http://www.godel.se" target="blank_" >Visit godel.se</a>
