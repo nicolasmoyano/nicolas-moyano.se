@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import icahandlaCover from '../images/IcaHandla-Cover.png'
-import icahandlaAir from '../images/IcaHandla-Aircooking.png'
+import utopiaBrandguide from '../images/Utopia-brandguide.png'
 import icahandlaCoupons from '../images/Icahandla-Coupon.png'
 
 
@@ -35,19 +35,8 @@ const GodEl = () => (
         <h5 style={{ textAlign: 'center' }}>Digital coupons</h5>
     </div>
 
-    <img src={icahandlaCoupons} alt="Ica Handla coupons" />
-
-    <div style={{ paddingTop: '40px'}}>
+    <img src={utopiaBrandguide} alt="Utopia music brand guide" />
     
-        <h5 style={{ textAlign: 'center' }}>Air cooking</h5>
-        <p>In February 2014 we released an iPad version that has all of the appreciated features from the ICA Handla iPhone. But this time around we put extra effort into the cooking experience. On the iPad you can see your ingredient list and the instructions steps in the same view. The ingredient list also automatically scrolls as you advance. When you are cooking by a recipe you can switch to handsfree mode and use air gestures to navigate the app. Very convenient when you have your hands covered in different ingredients.</p>
-    <img src={icahandlaAir} alt="ICA handla air cooking" />
-    </div>
-
-    <div style={{ paddingTop: '40px'}}>
-    <iframe width="100%" height="640" src="https://www.youtube.com/embed/II2w47HOlOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
- 
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
