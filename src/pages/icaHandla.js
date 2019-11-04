@@ -3,10 +3,8 @@ import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import icahandlaCover from '../images/IcaHandla-Cover.png'
-import godel1 from '../images/GodEl.png'
 import icahandlaAir from '../images/IcaHandla-Aircooking.png'
 import icahandlaCoupons from '../images/Icahandla-Coupon.png'
-import godelWidgetsDesign from '../images/GodEl-Widget-Design.png'
 
 
 const GodEl = () => (
@@ -47,7 +45,7 @@ const GodEl = () => (
     </div>
 
     <div style={{ paddingTop: '40px'}}>
-    <iframe width="100%" height="640" src="https://www.youtube.com/embed/II2w47HOlOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="640" title="aircooking"src="https://www.youtube.com/embed/II2w47HOlOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
  
     <Link to="/">Go back to the homepage</Link>

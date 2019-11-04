@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import icahandlaCover from '../images/IcaHandla-Cover.png'
-import utopiaBrandguide from '../images/Utopia-brandguide.png'
-import icahandlaCoupons from '../images/Icahandla-Coupon.png'
+// import utopiaBrandguide from '../images/Utopia-brandguide.png'
+import UtopiaIMG from "../components/utopiaImage"
 
 
 const GodEl = () => (
@@ -35,8 +35,9 @@ const GodEl = () => (
         <h5 style={{ textAlign: 'center' }}>Digital coupons</h5>
     </div>
 
-    <img src={utopiaBrandguide} alt="Utopia music brand guide" />
-    
+    <UtopiaIMG></UtopiaIMG>
+    {/* <img src={utopiaBrandguide} alt="Utopia music brand guide" /> */}
+
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
