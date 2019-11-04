@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import icahandlaCover from '../images/IcaHandla-Cover.png'
 import godel1 from '../images/GodEl.png'
-import godelWidgets from '../images/GodEl-Widgets.png'
+import icahandlaAir from '../images/IcaHandla-Aircooking.png'
 import icahandlaCoupons from '../images/Icahandla-Coupon.png'
 import godelWidgetsDesign from '../images/GodEl-Widget-Design.png'
 
@@ -29,7 +29,7 @@ const GodEl = () => (
     </div>
 
     <div style={{ maxWidth: '720px' }}>
-        <h5>Our solution</h5>
+        <h5>The solution</h5>
         <p>One of the great innovations of the app, is the new system of digital coupons. This makes it possible to load offers directly to the ICA Card in realtime via the QR-reader in the app. Unlike other digital coupons on the market, this means that customers do not have to show their phone at checkout, it’s enough to draw the ICA card. Another feature that we are quite proud of is that the shopping list in the app is in sync with how the groceries show up in the store</p> 
     </div>
 
@@ -41,18 +41,13 @@ const GodEl = () => (
 
     <div style={{ paddingTop: '40px'}}>
     
-        <h5 style={{ textAlign: 'center' }}>Wireframes of widgets</h5>
-    <img src={godelWidgets} alt="GodEl Widgets" />
+        <h5 style={{ textAlign: 'center' }}>Air cooking</h5>
+        <p>In February 2014 we released an iPad version that has all of the appreciated features from the ICA Handla iPhone. But this time around we put extra effort into the cooking experience. On the iPad you can see your ingredient list and the instructions steps in the same view. The ingredient list also automatically scrolls as you advance. When you are cooking by a recipe you can switch to handsfree mode and use air gestures to navigate the app. Very convenient when you have your hands covered in different ingredients.</p>
+    <img src={icahandlaAir} alt="ICA handla air cooking" />
     </div>
 
     <div style={{ paddingTop: '40px'}}>
-        <h5 style={{ textAlign: 'center' }}>Design of widgets</h5>
-    <img src={godelWidgetsDesign} alt="GodEl Widgets" />
-    </div>
-
-    <div>
-    <h5 style={{ textAlign: 'center', paddingTop: '40px' }}>Final delivery</h5>
-    <img src={godel1} alt="godEl final"></img>
+    <iframe width="100%" height="640" src="https://www.youtube.com/embed/II2w47HOlOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
  
     <Link to="/">Go back to the homepage</Link>

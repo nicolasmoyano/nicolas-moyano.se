@@ -29,7 +29,7 @@ const GodEl = () => (
     </div>
 
     <div style={{ maxWidth: '720px' }}>
-        <h5>Our solution</h5>
+        <h5>The solution</h5>
         <p>We choose to present a vision for the entire GodEl.se. That includes technical solutions to go hand in hand with the brand change begun at GodEl. We see our vision as an end to the project of rebuilding godel.se but not as a finished product. After launch the collaboration continues with new improvements and iterations based on the knowledge we can draw from users.</p> 
     </div>
 
