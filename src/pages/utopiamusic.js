@@ -32,7 +32,7 @@ const GodEl = () => (
     </div>
 
     <div style={{ paddingTop: '40px'}}>
-        <h5 style={{ textAlign: 'center' }}>Digital coupons</h5>
+        <h5 style={{ textAlign: 'center' }}>Utopia Digital Brandbook</h5>
     </div>
 
     <UtopiaIMG></UtopiaIMG>
