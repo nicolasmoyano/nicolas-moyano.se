@@ -1,6 +1,7 @@
 import React from 'react'
 import GodelBG from '../images/godel_BG.png'
 import IcaBG from '../images/IcaBG.png'
+import UtopiaBG from '../images/UtopiaBG.png'
 import { Link } from "gatsby"
 import '../components/global.scss'
 import readArrow from '../images/ReadArrow.svg'
@@ -35,6 +36,20 @@ const SelectedProject = () =>(
                 </span>
             </div>
         </div>
+
+        <div><img src={UtopiaBG} alt="Utopia music"></img>
+            <div className="project-info" style={{ position: 'relative', top: '-20vh', marginLeft: '50%', width:'590px', backgroundColor: '#FFFFFF', padding: '40px', boxShadow: '0px 8px 20px 0px rgba(0,0,0,0.1)'}}>
+                <h2>Utopia Music</h2>
+                <p>The supermarket industry is a saturated market, where customer loyalty is hard to acquire, and even harder to maintain. Building one of Sweden’s best-loved apps </p>
+               
+                <span>
+                <Link to="/icahandla/" className="readMore" style={{ color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}}>
+                Read more
+                <img className="readmoreArrow" style={{ width: '16px', marginLeft: '8px' }}src={readArrow} alt="read more"></img>
+                </Link>
+                </span>
+            </div>
+        </div>  
     
     </div>
 )
