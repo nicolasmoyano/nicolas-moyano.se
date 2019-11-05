@@ -10,7 +10,8 @@ const Header = ({ siteTitle }) => (
       width: '100%',
       background: `white`,
       marginBottom: `1.45rem`,
-      borderBottom: '1px solid #e4e4e4'
+      borderBottom: '1px solid #e4e4e4',
+      zIndex: '1'
     }}
   >
     <div
