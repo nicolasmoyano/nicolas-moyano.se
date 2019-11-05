@@ -40,7 +40,7 @@ const SelectedProject = () =>(
         <div><img src={UtopiaBG} alt="Utopia music"></img>
             <div className="project-info" style={{ position: 'relative', top: '-20vh', marginLeft: '50%', width:'590px', backgroundColor: '#FFFFFF', padding: '40px', boxShadow: '0px 8px 20px 0px rgba(0,0,0,0.1)'}}>
                 <h2>Utopia Music</h2>
-                <p>The supermarket industry is a saturated market, where customer loyalty is hard to acquire, and even harder to maintain. Building one of Sweden’s best-loved apps </p>
+                <p>Music is incredible. But as an industry, it has been slow, complicated, and disparate. While the tech world has moved into the future, the music industry continues to be shaped by inefficient systems of the past.</p>
                
                 <span>
                 <Link to="/utopiamusic" className="readMore" style={{ color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}}>

@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import icahandlaCover from '../images/IcaHandla-Cover.png'
+import UTCover from '../images/UT-Cover.jpg'
 // import utopiaBrandguide from '../images/Utopia-brandguide.png'
 import UtopiaIMG from "../components/utopiaImage"
 
@@ -10,15 +10,15 @@ import UtopiaIMG from "../components/utopiaImage"
 const GodEl = () => (
 
   <Layout>
-    <SEO title="Ica Handla" />
+    <SEO title="Utopia Music" />
     
-    <img style={{ marginTop: '70px' }}src={ icahandlaCover } alt="ICA handla cover"></img>
+    <img style={{ marginTop: '70px' }}src={ UTCover } alt="ICA handla cover"></img>
     
     <div style={{ maxWidth: 1200, paddingTop: '40px'}}>
-    <h1>Ica handla - Swedens grocery app</h1>
+    <h1>Utopia Music</h1>
     </div>    
-    <div style={{maxWidth: '720px'}}><p>The supermarket industry is a saturated market, where customer loyalty is hard to acquire, and even harder to maintain. This makes it crucial for ICA to engage with and offer value to their customers in every channel. We were approached with an interesting brief - to create an app that would simplify the everyday tasks of shopping and cooking.</p>
-    <a style={{ color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}} href="https://apps.apple.com/se/app/ica/id458324110" target="blank_">Download app</a>
+    <div style={{maxWidth: '720px'}}><p>Utopia Music is a Swiss-based technology company that leverages big data in order to enhance the global music industry through increased revenues, reduced costs, accelerated payment cycles and improved insights, while creating an ecosystem where music & tech foster creativity & joy.</p>
+    <a style={{ color: '#ec5c59', textDecoration: `none`, fontWeight: 500, textTransform: 'uppercase'}} href="http://www.utopiamusic.com" target="blank_">Visit site</a>
     </div>
 
     <div style={{ maxWidth: '720px' }}>

@@ -9,6 +9,10 @@ $breakpoint-mobile: 320px;
         color: $secondary-color;
         text-decoration: none;
     }
+
+    p {
+        text-align: justify;
+    }
 }
 
 @media (max-width: $breakpoint-mobile) {
