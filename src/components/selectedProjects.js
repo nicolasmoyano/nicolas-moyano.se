@@ -8,7 +8,7 @@ import readArrow from '../images/ReadArrow.svg'
 import '../components/project.scss'
 
 const SelectedProject = () =>(
-    <div className="Project" style={{ maxWidth: 1200, marginTop: '160px'}}>
+    <div className="Projects" style={{ maxWidth: 1200, marginTop: '160px'}}>
         <div style={{ textAlign: 'center', marginBottom: '80px' }} > <h5>Selected work</h5></div>
         <div><img src={GodelBG} alt="Godel"></img>
             <div className="project-info" style={{ position: 'relative', top: '-20vh', marginLeft: '50%', width:'590px', backgroundColor: '#FFFFFF', padding: '40px', boxShadow: '0px 8px 20px 0px rgba(0,0,0,0.1)'}}>

@@ -16,3 +16,28 @@
       transform: translate(10px, 0);
     }
   }
+
+
+  .allProjects{
+    .readMore{
+      color: #ec5c59;
+      text-decoration: none;
+      font-weight: 500; text-transform: uppercase;
+    }
+    .small{
+      max-width: 390px;
+      margin: 0 auto;
+    }
+    .project-info-small{
+      background-color: #FFFFFF;
+      padding: 24px;
+      box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.1);
+    }
+    .project-info-small:hover{
+      .readmoreArrow{
+          animation: slide1 1s ease-in-out infinite;
+          margin-left: 9px;
+      }
+  }
+  
+  }

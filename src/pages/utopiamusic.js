@@ -36,7 +36,6 @@ const GodEl = () => (
     </div>
 
     <UtopiaIMG></UtopiaIMG>
-    {/* <img src={utopiaBrandguide} alt="Utopia music brand guide" /> */}
 
     <Link to="/">Go back to the homepage</Link>
   </Layout>
