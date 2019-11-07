@@ -1,5 +1,5 @@
 import React from 'react'
-import GodelBG from '../images/godel_BG.png'
+import TargetAidBG from '../images/TargetAidBG.png'
 import IcaBG from '../images/IcaBG.png'
 import UtopiaBG from '../images/UtopiaBG.png'
 import { Link } from "gatsby"
@@ -9,18 +9,18 @@ import '../components/project.scss'
 
 const AllProject = () =>(
     <div className="allProjects" style={{ maxWidth: 1200, marginBottom: '40px'}}>
-        <div style={{ textAlign: 'center', marginBottom: '80px' }} > <h5>Other projects</h5></div>
+        <div style={{ textAlign: 'center', marginBottom: '80px' }} > <h5>browse all</h5></div>
 
         <div style={{display: 'flex', textAlign: 'center'}}>
 
-        <div style={{ flex: '1', marginRight: '16px'}} ><img src={GodelBG} alt="Godel"></img>
+        <div style={{ flex: '1', marginRight: '16px'}} ><img src={TargetAidBG} alt="Targetaid"></img>
             <div className="project-info-small">
-                <h3>Godel</h3>
-                <p>There is one thing that all electricity companies must do: sell electricity. So we do as well. But our profits goes to organizations that tries to save the world.</p>
+                <h3>Targetaid</h3>
+                <p>Connect people to different charities. Providing a new way of giving where you can search and choose what you are passionate about quickly and easily.</p>
                 <span>
                 <Link to="/godel/" className="readMore">
                 Read more
-                <img className="readmoreArrow"  style={{ width: '16px', marginLeft: '8px'}}src={readArrow} alt="read more"></img>
+                <img className="readmoreArrow" style={{ width: '16px', marginLeft: '8px'}}src={readArrow} alt="read more"></img>
                 </Link>
                 </span>
             </div>

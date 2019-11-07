@@ -7,7 +7,7 @@ const AboutMe = () => (
         <div style={{ flex: '1' }}>
             <h3>Nicolas Moyano</h3>
 
-            <p>HI! I'm a 33 year old Art Dircetor and Digital Designer based in Stockholm, Sweden.
+            <p>HI! I'm a 33 year old Digital art director & product designer based in Stockholm, Sweden.
             I'm a movie and tv-series addicted pixel pusher who loves design in all of its form. I also enjoy working with concept development.</p>
 
             <p>I’m currently working at Utopia Music as a Digital Designer in Stockholm.</p>
